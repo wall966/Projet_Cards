@@ -1,0 +1,374 @@
+body {
+    background: #eeede9;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    margin: 70px;
+    font-size: x-large;
+}
+
+header p {
+    font-family: sans-serif;
+    font-size: 25px;
+}
+
+#premiere {
+    color: #555555;
+    font-family: sans-serif;
+}
+
+.status {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    margin-top: 40px;
+    gap: 20px;
+}
+
+#total {
+    background: #f5f5f3;
+    border-radius: 9px;
+    width: 350px;
+    height: 100px;
+
+}
+
+#total p {
+    margin-left: 30px;
+}
+
+#bt {
+
+    font-size: 18px;
+    color: #555555;
+    margin-top: -15px;
+    font-size: 15px;
+}
+
+#tous {
+    background: black;
+    color: white;
+    border-radius: 9px;
+    width: 100px;
+    height: 40px;
+    border-color: black;
+}
+
+#autres1,
+#autres2,
+#autres3,
+#autres4 {
+    background: #f5f5f3;
+    color: #555555;
+    border-radius: 9px;
+    width: 180px;
+    height: 40px;
+    font-size: larger;
+    border-color: rgb(231, 226, 226);
+}
+
+aside {
+    margin: 40px;
+
+}
+
+aside button {
+    margin: 10px;
+}
+
+#barre {
+    width: 800px;
+    height: 40px;
+    font-size: larger;
+    border-radius: 9px;
+    border: none;
+    padding-left: 10px;
+}
+
+.toutesCards {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+    margin: 60px;
+}
+
+.card {
+    display: grid;
+    border: groove;
+    border-color: whitesmoke;
+    border-radius: 15px;
+    background: #A0B4F4;
+    width: 250px;
+    height: 350px;
+    border: none;
+    overflow: hidden;
+
+
+}
+
+main,
+h2,
+.btn {
+    color: #1a2a6c;
+}
+
+h2 {
+    margin-top: 135px;
+    margin-left: 15px;
+
+}
+
+.deuxiemePartie {
+    display: block;
+    align-content: end;
+    background-color: white;
+    align-items: start;
+}
+
+.btn {
+    width: 65px;
+    height: 30px;
+    border-radius: 5px;
+    border: none;
+    margin: 15px;
+    background: #A0B4F4;
+}
+
+.btn01 {
+    width: 100px;
+    height: 30px;
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    color: #555555;
+}
+
+.toutesCards p {
+    margin-left: 15px;
+    color: #555555;
+    font-size: large;
+}
+
+@media only screen and (max-width: 399px) {
+
+  header {
+    margin: 30px 20px;
+  }
+
+  .status {
+    grid-template-columns: repeat(2, 1fr);
+    margin-top: 20px;
+    gap: 12px;
+  }
+
+  #total {
+    width: 100%;
+    height: 90px;
+  }
+
+  aside {
+    margin: 10px 15px;
+  }
+
+  aside button {
+    margin: 5px 4px;
+  }
+
+  #barre {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .toutesCards {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px 15px;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width: 400px) and (max-width: 600px) {
+
+  header {
+    margin: 40px 25px;
+  }
+
+  .status {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  #total {
+    width: 100%;
+    height: 90px;
+  }
+
+  aside {
+    margin: 10px 15px;
+  }
+
+  #barre {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .toutesCards {
+    grid-template-columns: repeat(1, 1fr);
+    margin: 20px 15px;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 750px) {
+
+  header {
+    margin: 40px 30px;
+  }
+
+  .status {
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+  }
+
+  #total {
+    width: 100%;
+    height: 90px;
+  }
+
+  aside {
+    margin: 10px 20px;
+  }
+
+  #autres1,
+  #autres2,
+  #autres3,
+  #autres4 {
+    width: 145px;
+  }
+
+  #barre {
+    width: 100%;
+    box-sizing: border-box;
+  }
+
+  .toutesCards {
+    grid-template-columns: repeat(2, 1fr);
+    margin: 20px 20px;
+    gap: 20px;
+  }
+
+  .card {
+    width: 100%;
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width: 751px) and (max-width: 1000px) {
+
+  header {
+    margin: 50px 40px;
+  }
+
+  .status {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 15px;
+  }
+
+  #total {
+    width: 100%;
+    height: 90px;
+  }
+
+  #autres1,
+  #autres2,
+  #autres3,
+  #autres4 {
+    width: 145px;
+  }
+
+  #barre {
+    width: 100%;
+    box-sizing: border-box;
+    max-width: 700px;
+  }
+
+  .toutesCards {
+    grid-template-columns: repeat(3, 1fr);
+    margin: 30px 30px;
+    gap: 25px;
+  }
+
+  .card {
+    width: 100%;
+    height: 320px;
+  }
+}
+
+@media only screen and (min-width: 1001px) and (max-width: 1500px) {
+
+  header {
+    margin: 60px 50px;
+  }
+
+  .status {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 18px;
+  }
+
+  #total {
+    width: 100%;
+    height: 100px;
+  }
+
+  aside {
+    margin: 10px 40px;
+  }
+
+  #barre {
+    width: 580px;
+  }
+
+  .toutesCards {
+    grid-template-columns: repeat(4, 1fr);
+    margin: 40px 40px;
+    gap: 25px;
+  }
+
+  .card {
+    width: 100%;
+    height: 330px;
+  }
+}
+
+@media only screen and (min-width: 1501px) {
+
+  .status {
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+  }
+
+  #total {
+    width: 100%;
+    height: 100px;
+  }
+
+  .toutesCards {
+    grid-template-columns: repeat(5, 1fr);
+    gap: 30px;
+  }
+
+  .card {
+    width: 100%;
+    height: 350px;
+  }
+}
